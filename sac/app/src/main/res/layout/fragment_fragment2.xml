@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wallpaper1">
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/adultscheckBox" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/k"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/kidscheckBox" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bl"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/blanketscheckBox" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/background_shape"
+        android:hint="@string/des"
+        android:textSize="25sp"
+        android:id="@+id/descriptionclothes"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/login_press"
+        android:id="@+id/buttonClothes"
+        android:onClick="onClothesSubmit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePickerclothes"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:clickable="true"
+        android:startYear="2016"
+        android:endYear="2018"
+        android:layout_margin="30dp"
+        android:layout_above="@id/buttonClothes"
+        android:layout_below="@+id/descriptionclothes"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

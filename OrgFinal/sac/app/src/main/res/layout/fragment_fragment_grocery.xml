@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/sm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gro"
+            android:textSize="25sp"
+            android:singleLine="true"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/seekBar" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/g"
+            android:id="@+id/checkBox" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p"
+            android:id="@+id/checkBox2" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ch"
+            android:id="@+id/checkBox3" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/o"
+            android:id="@+id/checkBox5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pd"
+            android:id="@+id/textView"
+            android:textSize="25sp"/>
+
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:yearListSelectorColor="@android:color/black"
+            android:calendarTextColor="@color/colorPrimary"
+            android:datePickerMode="spinner"
+            android:startYear="2016"
+            android:endYear="2100"
+            android:id="@+id/datePicker" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/butt"
+            android:textSize="25sp"
+            android:id="@+id/buttonGrocery"
+            android:onClick="onGrocerySubmit"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</ScrollView>

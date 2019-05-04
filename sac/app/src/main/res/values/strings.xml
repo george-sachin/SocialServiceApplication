@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Me4U</string>
+
+
+    <string name="bo">BOOKS</string>
+    <string name="sb">STORYBOOKS</string>
+    <string name="nbo">NOTEBOOKS</string>
+    <string name="n">NOVELS</string>
+    <string name="mag">MAGZINES</string>
+
+    <string name="ad">ADDRESS</string>
+    <string name="co">CONTACT</string>
+    <string name="em">EMAIL</string>
+
+
+    <string name="o">OTHER</string>
+    <string name="donate">DONATE</string>
+    <string name="gro">GROCERY</string>
+    <string name="g">GRAINS</string>
+    <string name="p">PULSES</string>
+    <string name="ch">CHOCOLATES</string>
+    <string name="pd">Pick Up Date</string>
+
+    <string name="amenities">AMENITIES</string>
+    <string name="st">STATIONERY</string>
+    <string name="sp">SPORTS</string>
+    <string name="t">TOYS</string>
+    <string name="ut">UTENSILS</string>
+    <string name="fa">FIRST AID   </string>
+
+
+    <string name="c">CLOTHES</string>
+    <string name="a">ADULTS</string>
+    <string name="k">KIDS</string>
+    <string name="bl">BLANKETS</string>
+
+
+    <string name="f">FOOD</string>
+    <string name="v">VEG</string>
+    <string name="nv">NON VEG</string>
+    <string name="ty">Type</string>
+    <string name="pa">Package</string>
+    <string name="pt">Pick Up Time</string>
+    <string name="pa1">Packed</string>
+    <string name="pa2">Unpacked</string>
+    1
+
+    <string name="app_name1">Me4U</string>
+    <string name="u1">USER NAME:</string>
+    <string name="P1">PASSWORD:</string>
+    <string name="l1">LOGIN</string>
+    <string name="r1">REGISTER</string>
+    <string name="a1">ADDRESS:</string>
+    <string name="e1">EMAIL ID:</string>
+    <string name="c1">CONTACT:</string>
+    <string name="n1">NAME:</string>
+    <string name="his">HAPPINESS IS SHARING</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="version">Version 1.0.0</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="advinc">© 2016 Advans Inc.</string>
+    <string name="arr">All Rights Reserved.</string>
+
+
+    <string name="action_help">HELP</string>
+    <string name="past">PAST TRANSACTIONS</string>
+    <string name="sub">SUBMIT</string>
+    <string name="des">    DESCRIPTION</string>
+    <string name="advans">AdVaNS</string>
+
+
+</resources>
