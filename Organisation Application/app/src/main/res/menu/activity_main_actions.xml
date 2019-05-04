@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:icon="@drawable/refresh"
+        android:title="@string/Requests"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/past"
+        android:icon="@drawable/refresh"
+        android:title="@string/past"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/refresh"
+        android:title="@string/btn_about"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/refresh"
+        android:title="@string/btn_logout"
+        app:showAsAction="never" />
+</menu>

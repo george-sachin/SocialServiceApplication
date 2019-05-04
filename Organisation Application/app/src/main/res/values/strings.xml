@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Me4U Partners</string>
+    <string name="action_settings">Settings</string>
+    <string name="Requests">REQUESTS</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="past">PAST TRANSACTIONS</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="advinc">© 2016 Advans Inc.</string>
+    <string name="arr">All Rights Reserved.</string>
+    <string name="version">Version 1.0.0</string>
+
+
+    <string name="phone">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="food">Food</string>
+    <string name="c">Clothes</string>
+    <string name="b">Books</string>
+    <string name="a">Amenities</string>
+
+    <string name="ad">ADDRESS</string>
+    <string name="co">CONTACT</string>
+    <string name="em">EMAIL</string>
+    <string name="advans">AdVaNS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
